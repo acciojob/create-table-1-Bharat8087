@@ -1,6 +1,4 @@
 function insert_Row() {
-    //Write your code here
-
     var table = document.getElementById('sampleTable');
     var newRow = document.createElement('tr');
     table.insertBefore(newRow, table.firstChild);
